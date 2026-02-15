@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+    font-family: 'Arial';
+    background-color:#0f172a;
+    color:azure;
+}
+
+header{
+    background-color: #1e293b;
+    padding: 20px;
+    text-align:center;
+}
+
+/* navigation */
+nav {
+    display:flex;
+    justify-content: center;
+    gap: 25px;
+    background-color: #334155;
+    padding: 10px, 0;
+}
+nav a{
+    color: azure;
+    padding: 5px 10px;
+    font-weight: bolder;
+    text-decoration: none;
+    /* transition: color 0.3s, border-bottom 0.3s; */
+}
+nav a.active{
+    border-bottom: 2px solid rgb(58, 115, 161);
+}
+nav a:hover{
+    color: rgb(67, 137, 194);
+}
+
+
+/* basic and first page */
+.card{
+     margin-top: 30px;
+    background-color:#1c2b42;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    /* transition: transform 0.3s, box-shadow 0.3s; */
+}
+.card h2{
+    margin-top: 0;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+.card p{
+    line-height: 1.6;
+    font-size: 1rem;
+}
+img{
+    max-width: 200px;
+    border-radius: 10px;
+    display:block;
+    margin: 10px 0;
+}
+
+/* history and future-part */
+.item{
+    display:flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+.card-text{
+    flex: 1;
+}
+.card-img img{
+    width: 300px;
+    border-radius: 10px;
+}
+
+/* pros and cons -part */
+.list{
+    list-style-image: url('images/list-icon.png');
+    list-style-position: inside;
+    flex: 1;
+    font-size: 20px;
+}
+.list li{
+    padding:15px 15px 20px 10px;
+}
+.container2{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+.text{
+    font-size: 17px;
+}
+.images, .images-cons{
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+.images img, .images-cons img{
+    height: auto; 
+    margin-right: 20px;
+    margin-top: 30px;
+}
+.images-cons{
+    gap: 40px;
+}
+p.conclusion{
+    font-size: 18px;
+}
+
+/* footer */
+footer{
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9rem;
+    color: #a5a4a4;
+}
