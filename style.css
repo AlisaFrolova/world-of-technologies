@@ -117,3 +117,21 @@ footer{
     font-size: 0.9rem;
     color: #a5a4a4;
 }
+
+/* animations and design*/
+.card, img{
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeUp 0.8s ease forwards;
+}
+
+@keyframes fadeUp{
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+html{
+    scroll-behavior: smooth;
+}
