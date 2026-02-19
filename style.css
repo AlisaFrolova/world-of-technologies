@@ -17,14 +17,14 @@ nav {
     justify-content: center;
     gap: 25px;
     background-color: #334155;
-    padding: 10px, 0;
+    padding: 10px 0;
 }
 nav a{
     color: azure;
     padding: 5px 10px;
     font-weight: bolder;
     text-decoration: none;
-    /* transition: color 0.3s, border-bottom 0.3s; */
+    transition: color 0.3s, border-bottom 0.3s; 
 }
 nav a.active{
     border-bottom: 2px solid rgb(58, 115, 161);
@@ -41,7 +41,7 @@ nav a:hover{
     padding: 20px;
     margin-bottom: 30px;
     border-radius: 10px;
-    /* transition: transform 0.3s, box-shadow 0.3s; */
+    transition: transform 0.3s, box-shadow 0.3s;
 }
 .card h2{
     margin-top: 0;
@@ -74,7 +74,7 @@ img{
     border-radius: 10px;
 }
 
-/* pros and cons -part */
+/* pros and cons -part (and a bit of history and future)*/
 .list{
     list-style-image: url('images/list-icon.png');
     list-style-position: inside;
