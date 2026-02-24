@@ -9,6 +9,9 @@ header{
     background-color: #1e293b;
     padding: 20px;
     text-align:center;
+    background: linear-gradient(270deg, #1e293b, #071a475e);
+    background-size: 200% 200%;
+    animation: gradientFlow 12s ease infinite; 
 }
 
 /* navigation */
@@ -136,7 +139,14 @@ footer{
     }
 }
 
+@keyframes gradientFlow{
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100%{ background-position: 0% 50%; }
+}
+
 html{
     scroll-behavior: smooth;
 }
+
 
