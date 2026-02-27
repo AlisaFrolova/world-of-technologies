@@ -131,6 +131,10 @@ footer{
     transform: translateY(20px);
     animation: fadeUp 0.8s ease forwards;
 }
+.card:hover{
+    transform: translateY(-6px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.35);
+}
 
 @keyframes fadeUp{
     to{
@@ -148,5 +152,6 @@ footer{
 html{
     scroll-behavior: smooth;
 }
+
 
 
